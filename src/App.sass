@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap)
+
+$lora: 'Lora', serif
+
+html 
+	font-family: 'Lora'
+	background-color: black 
+	color: white 
+.App 
+	height: 100% 
+	margin: 50px 
+	display: flex 
+	flex-direction: column 
+	justify-content: flex-start 
+.messages 
+	border: 1px solid rgb(166, 101, 17) 
+	border-radius: 20px 
+	padding: 20px 
+	& > .text 
+		text-align: center 
+label 
+	display: none 
+form 
+	margin-top: 25px 
+	height: 35px 
+	display: flex 
+	justify-content: center 
+	align-items: center 
+	& > * 
+		height: 100% 
+.welcome 
+	font-size: 2rem 
+.messageEntry 
+	display: flex 
+	align-items: center 
+.messagesComponent 
+	margin: 25px 
+.username 
+	font-size: 1.1rem 
+	font-weight: bold 
+	font-style: italic 
+	text-decoration: underline 
+	color: rgb(224, 152, 59) 
+	margin-right: 10px 
+button 
+	display: flex 
+	border-radius: 20px 
+	border: none 
+	border-radius: 50% 
+	background-color: transparent 
+	cursor: pointer 
+	svg 
+		height: 100% 
+		fill: rgb(82, 133, 243) 
+input 
+	&:not([type="checkbox"]) 
+		border-radius: 20px 
+		padding: 10px 

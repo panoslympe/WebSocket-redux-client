@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+import './App.sass';
 import { Provider } from 'react-redux';
 import Messages from './components/Messages';
 import Form from './components/Form';
